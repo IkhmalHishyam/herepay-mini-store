@@ -115,23 +115,10 @@ A comprehensive e-commerce platform built for Herepay Tech Team assessment. This
 - **transactions** - Payment records
 - **product_stats** - Product analytics
 
-### Default Users
-- **Admin**: admin@herepay.com / password
-- **Customer**: customer@example.com / password
-
 ## 📖 Documentation
 
 - **ERD**: `docs/Herepay-Store-System-ERD.png`
 - **Use Cases**: `docs/Herepay-Store-System-UCD.png`
 - **Requirements**: `docs/Herepay Mini Store Challenge.pdf`
-
-## 📧 Assessment Contact
-
-**Herepay Tech Team Assessment**
-- **Deadline**: August 27, 2025 (Friday 1 PM)
-- **Contacts**: 
-  - aliff.rosli96@gmail.com
-  - adisazizan@gmail.com
-  - syahrul1414@gmail.com
 
 ---
