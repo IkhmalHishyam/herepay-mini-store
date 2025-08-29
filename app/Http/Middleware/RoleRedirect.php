@@ -9,11 +9,11 @@ use Symfony\Component\HttpFoundation\Response;
 
 class RoleRedirect
 {
-    public function handle(Request $request, Closure $next): Response
+        public function handle(Request $request, Closure $next): Response
     {
         $user = Auth::user();
         
-        if ($user->role === \App\Enums\UserRoleEnum::CUSTOMER) 
+        if ($user->role->value === \App\Enums\UserRoleEnum::CUSTOMER->value)
         {
             return redirect()->route('home');
         }

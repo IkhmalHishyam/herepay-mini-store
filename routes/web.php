@@ -10,7 +10,7 @@ use App\Http\Controllers\DashboardController;
 Route::get('/', [StoreController::class, 'index'])
     ->name('home');
 
-Route::middleware(['auth', 'verified'])->group(function () 
+Route::middleware(['auth'])->group(function () 
 {
     Route::prefix('cart')->group(function ()
     {
@@ -34,7 +34,7 @@ Route::middleware(['auth', 'verified'])->group(function ()
             Route::delete('/clear', 'clear')
                 ->name('cart.clear');
 
-            Route::delete('/', 'destroy')
+            Route::delete('/', 'destroy')   
                 ->name('cart.destroy');
         });
     });
