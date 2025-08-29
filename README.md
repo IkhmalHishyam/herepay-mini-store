@@ -7,7 +7,7 @@ A mini e-commerce platform built for Herepay Tech Team assessment.
 ### Backend
 - **Laravel 12** - Latest Laravel framework
 - **PHP 8.2+** - Modern PHP with type declarations
-- **MySQL/SQLite** - Database with ULID primary keys
+- **MySQL/Postgresql** - Database with ULID primary keys
 - **Inertia.js** - Server-side rendering for SPA experience
 - **Laravel Breeze** - Authentication scaffolding
 
@@ -20,7 +20,7 @@ A mini e-commerce platform built for Herepay Tech Team assessment.
 - **Vue Sonner** - Toast notifications
 
 ### Development Tools
-- **ESLint + Prettier** - Code quality and formatting
+- **ESLint + Prettier + Laravel Pint** - Code quality and formatting
 - **Laravel Pail** - Log viewing
 - **Laravel Wayfinder** - Type-safe routing
 
@@ -32,7 +32,8 @@ A mini e-commerce platform built for Herepay Tech Team assessment.
   "laravel/framework": "^12.0",
   "inertiajs/inertia-laravel": "^2.0",
   "laravel/wayfinder": "^0.1.9",
-  "laravel/pint": "^1.18"
+  "laravel/pint": "^1.18",
+  "league/flysystem-aws-s3-v3": "^3.29"
 }
 ```
 
@@ -62,10 +63,11 @@ A mini e-commerce platform built for Herepay Tech Team assessment.
 -- SKU Matrix
 
 ### CUSTOMER
-- LOGIN
-- STORE BROWSING
-- CART SYSTEM
-- FAKE SIMPLE ORDERING SIMULATOR
+- Register
+- Login
+- Store Browsing
+- Cart System
+- Fake Simple Ordering Simulator
 
 ### FUTURE IMPROVEMENT
 - Comprehensive order flow
