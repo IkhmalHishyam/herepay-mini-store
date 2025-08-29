@@ -14,13 +14,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        User::createMany([
+        User::create([
             'username'          => 'admin',
             'email'             => 'admin@herepay.com',
             'email_verified_at' => now(),
             'password'          => 'password',
             'role'              => UserRoleEnum::ADMIN->value
-        ], [
+        ]);
+
+        User::create([
             'username'          => 'customer',
             'email'             => 'customer@herepay.com',
             'email_verified_at' => now(),
