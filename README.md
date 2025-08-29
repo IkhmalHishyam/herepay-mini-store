@@ -1,6 +1,6 @@
 # Herepay Mini Store - Technical Assessment
 
-A comprehensive e-commerce platform built for Herepay Tech Team assessment. This project demonstrates advanced Laravel and Vue.js development with full e-commerce functionality.
+A mini e-commerce platform built for Herepay Tech Team assessment.
 
 ## 🛠 Tech Stack
 
@@ -53,7 +53,7 @@ A comprehensive e-commerce platform built for Herepay Tech Team assessment. This
 
 ## CORE FEATURE
 
-# ADMIN
+### ADMIN
 - Login
 - Dashboard Statistic
 - Product Management
@@ -61,13 +61,13 @@ A comprehensive e-commerce platform built for Herepay Tech Team assessment. This
 -- Variant
 -- SKU Matrix
 
-# CUSTOMER
+### CUSTOMER
 - LOGIN
 - STORE BROWSING
 - CART SYSTEM
 - FAKE SIMPLE ORDERING SIMULATOR
 
-# FUTURE IMPROVEMENT
+### FUTURE IMPROVEMENT
 - Comprehensive order flow
 - Comprehensive product & order statistic
 - Customer Order Management
