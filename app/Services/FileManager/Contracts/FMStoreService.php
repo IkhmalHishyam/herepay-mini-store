@@ -131,21 +131,21 @@ class FMStoreService extends FileManagerFoundation
     {
         $this->file = $file;
 
-        if ($filterOptionDTO->convert_to_webp)
-        {
-            $imageConvertor = new ImageConvertor;
-            $imageConvertor->handle($file);
+        // if ($filterOptionDTO->convert_to_webp)
+        // {
+        //     $imageConvertor = new ImageConvertor;
+        //     $imageConvertor->handle($file);
 
-            $this->file = $imageConvertor->getNewFile();
-        }
+        //     $this->file = $imageConvertor->getNewFile();
+        // }
 
-        if ($filterOptionDTO->resize)
-        {
-            $imageResizer = new ImageResizer;
-            $imageResizer->handle($file);
+        // if ($filterOptionDTO->resize)
+        // {
+        //     $imageResizer = new ImageResizer;
+        //     $imageResizer->handle($file);
 
-            $this->file = $imageResizer->getNewFile();
-        }
+        //     $this->file = $imageResizer->getNewFile();
+        // }
     }
 
     protected function extractFileProperty(UploadedFile $file, FileInputDTO $fileInputDTO): void
