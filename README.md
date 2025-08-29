@@ -117,8 +117,8 @@ A mini e-commerce platform built for Herepay Tech Team assessment.
 
 ## 📖 Documentation
 
-- **ERD**: `docs/Herepay-Store-System-ERD.png`
-- **Use Cases**: `docs/Herepay-Store-System-UCD.png`
-- **Requirements**: `docs/Herepay Mini Store Challenge.pdf`
+- **ERD**: [Herepay Store System ERD](docs/Herepay-Store-System-ERD.png)
+- **Use Cases**: [Herepay Store System UCD](docs/Herepay-Store-System-UCD.png)
+- **Requirements**: [Herepay Mini Store Challenge](docs/Herepay%20Mini%20Store%20Challenge.pdf)
 
 ---
